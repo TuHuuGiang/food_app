@@ -1,0 +1,59 @@
+﻿.product {
+    padding: 2rem 9%;
+}
+
+.product .heading {
+    text-align: center;
+}
+
+.product .heading span {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.6rem;
+    color: #27ae60;
+}
+
+.product .heading h3 {
+    font-size: 1.8rem;
+    color: #130f40;
+}
+
+.product__item .product__item-image img {
+    height: 10rem;
+}
+
+.product__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1.2rem;
+}
+
+.product__content .product__item {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 2rem;
+    margin-bottom: 1.4rem;
+    border-radius: 0.5rem;
+}
+
+.product__item-content h3 {
+    font-size: 1.2rem;
+}
+
+.product__item-content .product-price {
+    color: red;
+}
+
+.product__item .buy {
+    display: block;
+    color: #fff;
+    padding: 0.6rem;
+    margin-top: 0.4rem;
+    border-radius: 0.5rem;
+    background-color: #27ae60;
+}
+
+.product__item .buy:hover {
+    background-color: #130f40;
+}

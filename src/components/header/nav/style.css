@@ -1,0 +1,12 @@
+﻿.header__nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header__nav ul li a {
+    color: #666;
+}
+
+.header__nav ul li:hover a {
+    color: #27ae60;
+}
